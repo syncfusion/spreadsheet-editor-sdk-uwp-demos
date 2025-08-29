@@ -433,23 +433,17 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="Syncfusion Controls for UWP XAML, Version=14.2.0.18">
-      <Name>Syncfusion Controls for UWP XAML</Name>
-    </SDKReference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.6</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.SampleBrowser.UWP.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\SampleBrowser\Assemblies\Syncfusion.SampleBrowser.UWP.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  
-  <ItemGroup>
     <EmbeddedResource Include="SyncfusionLicense.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Syncfusion.SampleBrowser.UWP.Common.csproj">
+      <Project>{d2d6dcb1-d6cf-42f3-9e91-8d2cac952ce6}</Project>
+      <Name>Syncfusion.SampleBrowser.UWP.Common</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
