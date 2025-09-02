@@ -436,6 +436,14 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.6</Version>
     </PackageReference>
+	 <PackageReference Include="Syncfusion.XlsIO.UWP" Version="*" />
+	  <PackageReference Include="Syncfusion.SfSpreadsheet.UWP" Version="*" />
+	  <PackageReference Include="Syncfusion.SfSpreadsheetHelper.UWP" Version="*" />
+	  <PackageReference Include="Syncfusion.SfGridCommon.UWP" Version="*" />
+	  <PackageReference Include="Syncfusion.SfCellGrid.UWP" Version="*" />
+	  <PackageReference Include="Syncfusion.SfChart.UWP" Version="*" />
+	  <PackageReference Include="Syncfusion.SfColorPickers.UWP" Version="*" />
+	  <PackageReference Include="Syncfusion.SfRibbon.UWP" Version="*" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SyncfusionLicense.txt" />
