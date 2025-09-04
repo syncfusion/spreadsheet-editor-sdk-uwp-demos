@@ -31,7 +31,6 @@ namespace SpreadsheetSamples
         {
             this.InitializeComponent();
             OpenWorkbook();
-            this.spreadsheet.AddGraphicChartCellRenderer(new GraphicChartCellRenderer());
             this.Unloaded += SpreadsheetShowcase_Unloaded;
             
         }
@@ -44,7 +43,7 @@ namespace SpreadsheetSamples
         async void OpenWorkbook()
         {
             var assembly = typeof(SpreadsheetSamples.SpreadsheetShowcase).GetTypeInfo().Assembly;
-            string resourcePath = "Syncfusion.SampleBrowser.UWP.SfSpreadsheet.Assets.Showcase.xlsx";
+            string resourcePath = "Syncfusion.SampleBrowser.UWP.SfSpreadsheet.Assets.GettingStarted.xlsx";
             using (var fileStream = assembly.GetManifestResourceStream(resourcePath))
             {
                 await this.spreadsheet.Open(fileStream);

@@ -102,18 +102,6 @@ namespace Syncfusion.SampleBrowser.UWP.SfSpreadsheet
                 Tag = Tags.None,
                 SampleCategory = "Data Visualization"
             });
-            //SampleHelper.SampleViews.Add(new SampleInfo()
-            //{
-            //    SampleView = typeof(SpreadsheetSamples.Chart).AssemblyQualifiedName,
-            //    Header = "Chart",
-            //    Category = Categories.Grids,
-            //    SearchKeys = new string[] { "Chart" },
-            //    Description = "This sample showcases how to import the Excel chart into the SfSpreadsheet.",
-            //    DesktopImage = "ms-appx:///Syncfusion.SampleBrowser.UWP.SfSpreadsheet/WhatsNewImages/Chart.png",
-            //    Product = "Spreadsheet",
-            //    Tag = Tags.None,
-            //    SampleCategory = "Data Visualization"
-            //});
             SampleHelper.SampleViews.Add(new SampleInfo()
             {
                 SampleView = typeof(SpreadsheetSamples.GraphicCell).AssemblyQualifiedName,
