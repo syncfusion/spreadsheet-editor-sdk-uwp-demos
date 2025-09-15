@@ -20,7 +20,7 @@ namespace Syncfusion.SampleBrowser.UWP.SfSpreadsheet
                 Tag = Tags.None,
                 SampleType = SampleType.Showcase,
                 Description = "This demo imports the excel workbook which has expense trends for an year using SfSpreadsheet.",
-                DesktopImage = "ms-appx:///Syncfusion.SampleBrowser.UWP.SfSpreadsheet/Assets/Images/Spreadsheet-Desktop.jpg",
+                DesktopImage = "msappx://Syncfusion.SampleBrowser.UWP.SfSpreadsheet/Assets/Images/Spreadsheet-Desktop.jpg",
                 MobileImage = "ms-appx:///Syncfusion.SampleBrowser.UWP.SfSpreadsheet/Assets/Images/Spreadsheet-Mobile.jpg"
             });
 
