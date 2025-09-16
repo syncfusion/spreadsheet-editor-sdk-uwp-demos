@@ -1,4 +1,4 @@
-#region Copyright Syncfusion® Inc. 2001-2025.
+﻿#region Copyright Syncfusion® Inc. 2001-2025.
 // Copyright Syncfusion® Inc. 2001-2025. All rights reserved.
 // Use of this code is subject to the terms of our license.
 // A copy of the current license can be obtained at any time by e-mailing
@@ -213,7 +213,9 @@ namespace Common
         public static List<SampleInfo> SampleViews = new List<SampleInfo>();
 
         public static ViewModel DataViewModel;
-
+        public static string UWPText = "Comprehensive suite of over 70 components including charts, grids, gauges, maps, diagrams and much more. All the components render adaptively based on the current device family that it is being rendered on";
+        public static string HeaderTextDesktop = "Essential Studio® for UWP - 2025 Volume 3";
+        public static string HeaderTextMobile = "Essential Studio® for UWP";
         internal static List<string> NewProduct { get; set; }
         internal static List<string> PreviewProduct { get; set; }
         internal static List<string> UpdatedProduct { get; set; }
