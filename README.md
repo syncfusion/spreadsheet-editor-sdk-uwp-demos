@@ -1,4 +1,4 @@
-# Syncfusion® UWP Spreadsheet Editor samples 
+﻿# Syncfusion® UWP Spreadsheet Editor samples 
 
 This repository contains the demos for the [Syncfusion® Spreadsheet Editor SDK for UWP](https://www.syncfusion.com/spreadsheet-editor-sdk/uwp-spreadsheet-editor
 ). It is the best place to explore our UWP Spreadsheet Editor control and gain insights into API usage. The Syncfusion UWP Spreadsheet Editor is an Excel-inspired component that allows you to create, edit, view, and format Excel files without requiring Excel. The UWP Spreadsheet SDK enables you to work with Microsoft Excel files natively within a UWP application.
@@ -94,4 +94,4 @@ Syncfusion has no liability for any damage or consequence that may arise by the 
 
 * To renew the subscription, click [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing) or contact our sales team at <salessupport@syncfusion.com>.
   
-<p>Copyright © 2001-2025 Syncfusion®, Inc. Updated on 2025-08-08 at precisely 06:01:29 EST.</p>
+<p>Copyright © 2001-2026 Syncfusion®, Inc. Updated on 2026-02-06 at precisely 10:58:05 EST.</p>
