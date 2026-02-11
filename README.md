@@ -21,13 +21,7 @@ Documentation for the Syncfusion UWP Spreadsheet Editor control can be found on 
 
 ## <a name="using-the-samples"></a>Using the Samples ##
 
-The easiest way to use these samples without using Git is to download the zip file by clicking the "Download ZIP" button on the repo page.You can then unzip the entire archive and use the samples.
-
-[Download the samples ZIP](../../archive/master.zip)
-
-**Notes:** 
-* Before you unzip the archive, right-click it, select **Properties**, and then select **Unblock**.
-* Be sure to unzip the entire archive, and not just individual samples. The samples all depend on the SharedContent folder in the archive.
+Open Syncfusion.SampleBrowser.UWP.SfSpreadsheet.sln from the **SfSpreadsheet** folder.
 
 ### Installation Requirements:
 
